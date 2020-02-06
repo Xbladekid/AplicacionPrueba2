@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Reemplaza con tu propia accion", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "quiero comprobar que funciona el control de versiones git", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
